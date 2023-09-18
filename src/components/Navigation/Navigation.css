@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Poppins:wght@600&family=Ubuntu&display=swap");
+
+:root {
+    --bg-dark:#0c111b;
+    --font-white:#fff;
+    --font-gray:rgba(131, 127, 127, 0.888);
+}
+
+
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  background: #0c111b;
+}
+
+.heading {
+    position: absolute;
+    top: 20px;
+    left: 132px;
+    font-size: 35px;
+}
+
+
+.btn-search i {
+   position: relative;
+   right: 50px;
+   bottom: 0px;
+   font-size: 10px;
+   
+}
+
+.main-content {
+  max-width: 1400px;
+  color: var(--font-white);
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  max-width: 1200px;
+  margin-top: 30px;
+}
+
+.btn-search {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-top: -45px;
+}
+
+.btn-search input {
+  border: none;
+  background: transparent;
+  color: var(--font-white);
+  outline: 0;
+  border-bottom: 2px solid white;
+}
+
+.btn-search input::placeholder {
+  color: var(--font-white);
+  
+}
+
+.btn-search button {
+  background: transparent;
+  color: var(--font-white);
+  outline: 0;
+  border: none;
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--font-gray);
+    border-bottom: 1px dotted white;
+    transition: 1s;
+}
+
+/* button::after {
+    transition: 3s;
+} */
+
+
+
+
+
+
+
+/* Place holder margin according to their browsers*/

@@ -1,0 +1,17 @@
+
+
+.container-swipe  h1 {
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40rem;
+}
+
+
+.container-fluid {
+    max-width: 1512px;
+    min-height: 500px;
+    margin-top: 10px;
+    
+}
